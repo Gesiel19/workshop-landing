@@ -41,9 +41,7 @@ const Header = () => {
             </NavbarStyled>
             <BannerStyled>
             <div  className="text-banner">
-                <div>
-                    IMMERSIVE EXPERIENCES THAT DELIVER
-                </div>
+             IMMERSIVE EXPERIENCES THAT DELIVER
             </div>
             </BannerStyled>
         </HeaderStyled>
