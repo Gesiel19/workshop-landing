@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from "../header/Header";
 import Main from "../main/Main";
 import GlobalStyles from './StyleApp';
+import Header from '../header/Header';
 
 
 const App = () => {

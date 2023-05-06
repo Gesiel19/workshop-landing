@@ -1,7 +1,15 @@
-import React from 'react'
+import React from "react";
+import SectionGal from "./sectionGal/SectionGal";
+import SectionInfo from "./sectionInfo/SectionInfo";
 
-export default function Main() {
-  return (
-    <div></div>
-  )
+const Main = () => {
+    return (
+     <>
+     <SectionGal/>
+     <SectionInfo/>
+     </>
+
+    )
 }
+
+export default Main
