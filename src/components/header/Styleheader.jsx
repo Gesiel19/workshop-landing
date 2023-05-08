@@ -65,6 +65,28 @@ export const NavbarStyled= styled.nav`
             cursor: pointer;
             opacity: 0;
         }
+        /* .bars__menu{
+            width: 40px;
+        height: 20px;
+        background-color: rgb(254, 255, 255);
+        position: absolute;
+        top: 40px;
+        left: 200px;
+        cursor: pointer;
+        transition: all 600ms;
+        opacity: 0;
+
+        span {
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: black;
+            margin-top: 6px;
+            transform-origin: 0px 100%;
+        }
+
+        } */
+
         @media  (max-width: 850px) {
         .navbar{
             .navbar-close{
@@ -136,6 +158,8 @@ export const NavbarStyled= styled.nav`
                 margin-left: 8px;
             }
         }
+
+        
     }
 `;
 export const BannerStyled= styled.div`

@@ -1,13 +1,8 @@
 import React from 'react';
-<<<<<<< HEAD
-import Header from "../header/Header";
-import Footer from '../footer/Footer';
-
-=======
-import Main from "../main/Main";
 import GlobalStyles from './StyleApp';
 import Header from '../header/Header';
->>>>>>> cbbbf5470a511504af0beae38e9ca8f7eaa2345c
+import Main from "../main/Main";
+import Footer from "./../footer/Footer";
 
 
 const App = () => {
@@ -15,18 +10,9 @@ const App = () => {
     <>
     <GlobalStyles/>
        <Header/>
-<<<<<<< HEAD
-
-
-       
-       <Footer/>
-      
-      
-    </div>
-=======
        <Main/>
+      <Footer/> 
     </>
->>>>>>> cbbbf5470a511504af0beae38e9ca8f7eaa2345c
   );
 };
 

@@ -1,28 +1,8 @@
-<<<<<<< HEAD
-import NavigationBar from "../navigator_Nab/Navigator";
-
-
-const Header = () => {
-
-    return(
-      
-
-         <NavigationBar/>
-
-       
-
-    )
-
-
-}
-
-export default Header
-=======
 import React, {useState} from "react";
 import logo from '../assest/icons/logo.svg';
 import hamburger from '../assest/icons/icon-hamburger.svg';
 import close from '../assest/icons/icon-close.svg';
-import { HeaderStyled, BodyStyled, NavbarStyled, BannerStyled} from "./StyleHeader";
+import { HeaderStyled, BodyStyled, NavbarStyled, BannerStyled} from "./Styleheader";
 
 
 const Header = () => {
@@ -39,6 +19,7 @@ const Header = () => {
                 <a className="navbar-brand" href="#">
                     <img src={logo} alt="logo" />
                 </a>
+               
                 <button className="navbar-toggler" type="button" onClick={()=>onOpenMenu()}>
                     <img src={hamburger} alt="logo" />
                 </button>
@@ -69,4 +50,3 @@ const Header = () => {
 }
 
 export default Header;
->>>>>>> cbbbf5470a511504af0beae38e9ca8f7eaa2345c

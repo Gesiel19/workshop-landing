@@ -9,7 +9,7 @@ import {Footer} from "./Styledfooter"
 const FooterBanner = () => {
     return (
 
-        <Footer>
+        <Footer class="footer_media">
 
             <div>
                 <div class="div_Left">
