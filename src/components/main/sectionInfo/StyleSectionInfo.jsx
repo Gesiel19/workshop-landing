@@ -52,6 +52,12 @@ font-family: "Josefin Sans", "sans-serif";
         img{
         width: 200px;
         margin: 0;
+          :hover{
+            cursor: pointer;
+            filter: brightness(500%);
+            
+
+          }
         
     }
 
@@ -95,6 +101,7 @@ font-family: "Josefin Sans", "sans-serif";
             height: 150px;
             object-fit: cover;
             object-position: 0px 0px;
+
         }
 
         h3{
